@@ -7,14 +7,13 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/redhat-service-assurance/collectd-operator/pkg/apis"
-	"github.com/redhat-service-assurance/collectd-operator/pkg/controller"
-
 	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
 	"github.com/operator-framework/operator-sdk/pkg/leader"
 	"github.com/operator-framework/operator-sdk/pkg/log/zap"
 	"github.com/operator-framework/operator-sdk/pkg/metrics"
 	sdkVersion "github.com/operator-framework/operator-sdk/version"
+	"github.com/aneeshkp/collectd-operator/pkg/apis"
+	"github.com/aneeshkp/collectd-operator/pkg/controller"
 	"github.com/spf13/pflag"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 	"sigs.k8s.io/controller-runtime/pkg/client/config"

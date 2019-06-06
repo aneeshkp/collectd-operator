@@ -1,0 +1,12 @@
+apiVersion: collectdmon.collectd.org/v1alpha1
+kind: Collectd
+metadata:
+  name: collectd-ds
+spec:
+  # Add fields here
+   # Add fields here
+  deploymentPlan: 
+    configname: collectd-config
+    image: opnfv/barometer-collectd
+    size: 1
+ 
