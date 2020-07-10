@@ -75,5 +75,5 @@ required = [
     non-go = false
 
 [[constraint]]
-  branch = "master"
+  branch = "main"
   name = "github.com/RHsyseng/operator-utils"
